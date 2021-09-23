@@ -193,44 +193,40 @@ font-weight: 600;
  }
  .social-links{
      width: 100%;
-     margin: 2rem 0;
-     padding: 2rem 0 0 0;
-     border-top: 0.1px solid rgba(255, 255, 255, 0.363);
+     border-top:1px solid rgba(255, 255, 255, 0.459) ;
      display: flex;
+     padding: 2rem 0;
+     margin-top: 2rem;
  }
- .social-parts{
-     width: 50%;
-     display: flex;
-     /* border: 1px solid red; */
+ .social-media{
+   width: 70%;
+  display: flex;
  }
- .social-parts i{
-     font-size: 1.3rem;
+ .social-media a{
+color: white;
+font-size: 1.3rem;
  }
- .app{
-     width: 35%;
- }
- .social-parts a{
- color: white;
- }
- .social-parts a:hover{
+ .social-media a:hover{
      color: white !important;
  }
- .social-parts i:hover{
-     color: white;
- }
- #app{
+ .app{
+     padding: 0.5rem 0.8rem 0.5rem 0.5rem;
      border: 1px solid white;
-  background-color: transparent;
+     border-radius: 5px;
+     font-size: 0.9rem !important;
  }
- .copy{
-     position: absolute;
-     right: 5rem;
+ .m-link{
+     display: flex;
  }
- .copy a{
+ .copyright{
+     width: 30%;
+     text-align: right;
+ }
+ .copyright a{
      color: white;
      font-weight: normal;
  }
- .copy a:hover{
+ .copyright a:hover{
      color: white !important;
  }
  @media screen and (max-width:480px) {
@@ -425,42 +421,43 @@ font-weight: bold;
    border-radius: 5px;
 }
 .social-links{
-   margin: 2rem 0;
-   padding: 1rem 0;
-   border-top: none;
-   border-bottom: 0.1px solid rgba(255, 255, 255, 0.363);
-   display: flex;
-   flex-wrap: wrap;
+    width: 100%;
+    border-top:1px solid rgba(255, 255, 255, 0.459) ;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    margin-top: 2rem;
 }
-.social-parts{
-   display: flex;
-   /* flex-wrap: wrap; */
-   width: 100%;
+.social-media{
+  width: 100%;
+ display: flex;
 }
-.social-parts i{
-width: 100%;
-margin: 0 2rem;
+.social-media a{
+color: white;
+font-size: 1.3rem;
 }
-.social-parts a:hover{
-   color: white !important;
+.social-media a:hover{
+    color: white !important;
 }
-.social-parts i:hover{
-   color: white;
+.app{
+    /* width: 0%; */
+    padding: 0.5rem 0.1rem 0.5rem 0.3rem;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 0.9rem !important;
 }
-#app{
-   border: 1px solid white;
-background-color: transparent;
+.m-link{
+    display: flex;
+    width: 100%;
+  position: relative;
+  top: 3rem;
+  right:9rem;
 }
-.copy{
-   position: absolute;
-   right: 5rem;
-}
-.copy a{
-   color: white;
-   font-weight: normal;
-}
-.copy a:hover{
-   color: white !important;
+.copyright{
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top:3rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.582);
 }
  }
- 
