@@ -243,12 +243,12 @@ font-size: 1.3rem;
      border: none;
      z-index: 99999;
      }
-     .navbar-collapse {
+     .navbar-collapse{
         position: fixed;
         top: 0px;
         left: 0;
         padding: 5rem 1rem;
-        width: 80%;
+        width: 85% !important;
         height: 100%;
         z-index: 9999;
         background-color: rgb(255, 255, 255);
