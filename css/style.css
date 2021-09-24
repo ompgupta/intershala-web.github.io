@@ -209,10 +209,13 @@ font-size: 1.3rem;
      color: white !important;
  }
  .app{
-     padding: 0.5rem 0.8rem 0.5rem 0.5rem;
+     min-width: 20%;
      border: 1px solid white;
      border-radius: 5px;
-     font-size: 0.9rem !important;
+     background-color: transparent;
+ }
+ .app a{
+      font-size:1rem !important;
  }
  .m-link{
      display: flex;
@@ -425,6 +428,7 @@ font-weight: bold;
 .social-media{
   width: 100%;
  display: flex;
+ flex-wrap: wrap;
 }
 .social-media a{
 color: white;
@@ -434,24 +438,21 @@ font-size: 1.3rem;
     color: white !important;
 }
 .app{
-    /* width: 100%; */
-    padding: 0rem;
-    border: 1px solid rgb(255, 255, 255);
+    width: 65%; 
     border-radius: 5px;
-    font-size: 0.9rem !important;
+    text-align: left;
 }
 .m-link{
     display: flex;
     width: 100%;
   position: relative;
-  top: 3.2rem;
-  right:6.5rem;
+  top: 0.5rem;
 }
 .copyright{
     width: 100%;
     text-align: left;
     position: relative;
-    top:3rem;
+    top:2rem;
     border-top: 1px solid rgba(255, 255, 255, 0.582);
 }
  }
